@@ -8,10 +8,10 @@ name = "esp-test"
 path = "./src/bin/main.rs"
 
 [dependencies]
-esp-bootloader-esp-idf = "0.1.0"
-esp-hal                = { version = "=1.0.0-beta.1", features = ["esp32s3"] }
+esp-hal = { version = "=1.0.0-beta.1", features = ["esp32s3"] }
 esp-println = { version = "0.14.0", features = ["esp32s3"] }
 critical-section = "1.2.0"
+esp-bootloader-esp-idf = "0.1.0"
 
 [dev-dependencies]
 embedded-test = "0.4.0"
